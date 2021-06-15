@@ -1,0 +1,558 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+#third {
+    color: rgb(51, 51, 51);
+    font-weight: 300;
+    font-size: 12px;
+}
+
+#card-button {
+    background-color: white;
+    color: rgb(153, 153, 153);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%/50%;
+    border: 1px solid rgb(36, 36, 36);
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+#card-button:hover {
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: rgb(206, 206, 206);
+    color: black;
+}
+
+#card-description {
+    color: rgba(145, 145, 145, 0.945);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    font-size: 13px;
+}
+
+#card-description-title-one::after {
+    content: "·";
+    margin: 0ch 0.75ch;
+}
+
+#card-description-container {
+    margin-bottom: 2px;
+}
+
+#card-description-title {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+#side-loader-youtube > div:nth-child(2){
+    border: none;
+    padding-bottom: none;
+}
+
+#sl-youtube-sub-title{
+    margin-bottom: 0;
+}
+
+#card-img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+#card-img-column {
+    padding-left: 18px;
+}
+
+#card-img:hover {
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+#card-name {
+    margin: 0;
+    font-weight: 600;
+    color: rgba(36, 36, 36, 0.678);
+    font-size: 100%;
+    align-items: center;
+}
+
+#divider-two{
+   
+    border-bottom:rgba(161, 126, 74, 0.35) 1px solid;
+}
+
+#divider {
+    border-top: 1px rgb(206, 206, 206) solid;
+    padding-bottom: 10px;
+}
+
+#div-drop-one {
+    border-top: rgba(161, 126, 74, 0.35) 1px solid;
+    border-radius: 0;
+    display: flex;
+    display: block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#drop-down-button {
+    width: 100%;
+}
+
+#feed-foot-one{
+    color: blue;
+    font-weight: bold;
+}
+
+#feed-table-right-two{
+    border: 1px rgb(206, 206, 206) solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#feed-table-right-sub-title:hover{
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.05);
+    background: none
+}
+
+#feed-table-right-title-item{
+    display: flex;
+    border: none; 
+    padding-bottom: 0;
+}
+.img-overlay2:hover{
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.15);
+}
+#feed-foot-two{
+    font-weight: 550;
+    color: rgba(36, 36, 36, 0.678);;
+    font-weight: 600;
+    
+}
+
+#feed-table-right-two-item{
+    border: none;
+    display: block;
+    padding-top: 2;
+    padding-bottom: 2;
+
+}
+
+#youtube-image:hover{
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.15);
+    
+}
+
+#yt-text-title:hover{
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+.navbar-nav {
+
+  
+    margin-left: auto;
+   
+}
+
+#feed-table-right-sub-string{
+    padding-left: 22px;
+    font-size: 11px;
+    color: grey
+}
+
+#feed-table-right-sub-title{
+    font-weight:600;
+    color: rgba(36, 36, 36, 0.829);
+    margin: 0;
+}
+
+#feed-table-right-title{
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgba(36, 36, 36, 0.678);
+ 
+}
+
+.dropdown-menu {
+    width: 100%;
+    margin: auto;
+}
+
+#footer-sub-title {
+    border: none;
+    padding-top: 0;
+}
+
+
+#footer-title {
+    letter-spacing: 2px;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    font-weight: 600;
+    
+}
+
+
+#footer-title-icon {
+    color: blue;
+    margin-right: 10px;
+}
+
+#footer-title-icon-feed {
+    color: blue;
+    margin-right: 5px;
+}
+
+#footer-feed-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#generated-card {
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#generated-card > div > div.col-8 {
+    padding-left: 0;
+}
+
+#generated-card > div > div.col-4 {
+    padding-right: 0;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#id-image {
+    height: 50;
+    width: 50;
+}
+
+.no-shadow {
+    box-shadow: none !important;
+}
+
+#person-title {
+    color: grey;
+}
+
+#pickme {
+    margin-left: 0;
+    padding-left: 0;
+    height: 50px;
+    width: 75px;
+    background: blue;
+}
+
+#question-mark-icon {
+    color: black;
+}
+
+#question-mark-icon:hover {
+opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+#question-mark-div {
+    align-items: center;
+    margin-left: auto;
+}
+
+#side-banner {
+    display: flex;
+    align-items: center;
+}
+
+#top-two-text-divider-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none
+}
+
+#side-card {
+    border: none;
+}
+
+#side-card-title > div{
+     color: #212529;
+    font-weight: 650;
+    font-size: 18px;
+}
+
+#side-card-title {
+    justify-content: left;
+    padding: 0;
+    border-bottom: none !important;
+    background: transparent;
+   
+}
+
+#SideLoaderOneItem{
+    border: none;
+}
+
+#side-card-title > div {
+    font-weight: 600;
+    color: rgba(36, 36, 36, 0.678);
+    padding: 0;
+}
+
+#side-loader-footer {
+    margin: auto;
+    border: none;
+    font-weight: 600;
+    color: rgb(153, 153, 153);
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#SideLoaderOneContainer {
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+
+#SideLoaderOneGroup {
+    border: 1px rgb(206, 206, 206) solid;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    border-radius: 15px;
+}
+
+#side-loader-youtube {
+    border: 1px rgb(206, 206, 206) solid;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    
+}
+
+#sl-one-drop {
+    width: 100%;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent;
+    color: rgb(153, 153, 153);
+    font-weight: bold;
+}
+
+#side-nav-item-b:hover{
+    color: rgb(77, 77, 77);
+}
+
+.doggo:hover{
+    color: rgb(77, 77, 77);
+}
+
+#side-nav-a:hover {
+    color: rgb(77, 77, 77);
+}
+#side-nav-a {
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+}
+#side-nav-footer{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#side-nav-item{
+    padding: 5px;
+    color: rgb(153, 153, 153);
+    font-weight: bold;
+    border: none;
+    background: none;
+}
+
+#side-nav-main{
+    border: 1px rgb(206, 206, 206) solid;
+    border-radius: 15px;
+}
+#sl-youtube-sub-title{
+    border: none;
+    padding: none
+}
+
+#sl-youtube-sub-title-container{
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 0;
+    font-size: 14px;
+    margin-left: 0px;
+    padding-left: 8px;
+    
+
+}
+
+#side-nav-container{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#snc{
+
+    padding-bottom: 20px;
+}
+#top-one {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#top-one-text {
+    font-weight: 600;
+    color: rgba(36, 36, 36, 0.678);
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 0px;
+    
+}
+
+#top-two {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#top-two-text {
+    color: rgba(128, 128, 128, 0.966);
+    font-weight: 600;
+    font-size: 14px;
+}
+#top-two-text:hover {
+opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+    
+    color: black;}
+
+#youtube-card {
+    padding-left: 15px;
+    padding-right: 50px;
+    border: none;
+    display: inline;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+#youtube-icon {
+    color: red;
+}
+
+#youtube-image {
+    padding-left: 5;
+    padding-right: 0;
+}
+
+#youtube-text {
+    padding: 0;
+    padding-left: 10px
+}
+
+#yt-view-count {
+    color: grey;
+}
+
+#yt-text-title {
+    font-weight: 600;
+    color: rgb(36, 36, 36);
+}
+
+::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: just make scrollbar invisible */
+}
+.nav-links{
+    font-size:small;
+}
+
+.dropdown-menu .show{
+    padding-top:0px;
+
+}
+
+.footer-list .list-item {
+    list-style: none;
+    margin-bottom:1.2em;
+    font-size:.75rem;
+    font-weight:bold;
+    width:100%;
+}
+.footer-list .list-item:hover{
+    color:#004182;
+}
+
+
+#youtube-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

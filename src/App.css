@@ -1,0 +1,19 @@
+.App {
+    text-align: center;
+}
+
+#SideLoaderOne {
+    border-style: dotted;
+}
+
+#SideLoaderOneItem {
+    color: blue;
+}
+
+#SearchBar {
+    background-color: #ffffff;
+}
+
+#Logo {
+    background-color: #0a66c2;
+}
